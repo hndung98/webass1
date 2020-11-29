@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>My Cart - HD Store</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script language="JavaScript" src="script.js"></script>
+</head>
+
+<body onload="initializeCart()">
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<img src="images/bk1.png" width="125px">
+			</div>
+			<nav>
+				<ul id="menu-item">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</s></li>
+					<li><a href="">Categories</a></li>
+					<li><a href="">Sign in</a></li>
+				</ul>
+			</nav>
+			<img src="images/cart.png" class="btn-img" onclick="viewCart()">
+			<img src="images/menu.png" class="menu-icon btn-img" onclick="menutoggle()">
+		</div>
+	</div>
+
+	<!-- list of items -->
+	<div class="small-container">
+		<table>
+			<tr>
+				<th>Product</th>
+				<th>Quantity</th>
+				<th>Subtotal</th>
+			</tr>
+			<tr>
+				<td>
+					<div class="cart-info">
+						<img src="images/lap3.png">
+						<div>
+							<p>Laptop 3</p>
+							<small>Price: $400.00</small>
+							<br>
+							<a href="">Remove</a>
+						</div>
+					</div>
+				</td>
+				<td><input type="number" name="" value="1"></td>
+				<td>$400.00</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="cart-info">
+						<img src="images/lap3.png">
+						<div>
+							<p>Laptop 3</p>
+							<small>Price: $400.00</small>
+							<br>
+							<a href="">Remove</a>
+						</div>
+					</div>
+				</td>
+				<td><input type="number" name="" value="1"></td>
+				<td>$400.00</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="cart-info">
+						<img src="images/lap3.png">
+						<div>
+							<p>Laptop 3</p>
+							<small>Price: $400.00</small>
+							<br>
+							<a href="">Remove</a>
+						</div>
+					</div>
+				</td>
+				<td><input type="number" name="" value="1"></td>
+				<td>$400.00</td>
+			</tr>
+		</table>
+
+		<div class="total-price">
+			<table>
+				<tr>
+					<td>Subtotal</td>
+					<td>$200.00</td>
+				</tr>
+				<tr>
+					<td>Discount</td>
+					<td>10%</td>
+				</tr>
+				<tr>
+					<td>Total</td>
+					<td>$180.00</td>
+				</tr>
+			</table>
+		</div>
+
+
+	</div>
+
+	
+
+	<div class="footer">
+		<div class="small-container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download App</h3>
+					<p>Download App for Android and iOS</p>
+					<div class="app-logo">
+						<img src="images/bk2.jpg">
+						<img src="images/bk2.jpg">
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="images/lap.png">
+					<p>Download App for Android and iOS</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Links</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Coupons</li>
+						<li>Coupons</li>
+						<li>Coupons</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow us</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>Twitter</li>
+						<li>Insta</li>
+						<li>Youtube</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2020</p>
+		</div>
+	</div>
+</body>
+</html>

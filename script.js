@@ -23,6 +23,9 @@ function initializeProductDetails(){
 		ProductImg.src = SmallImg[3].src;
 	}
 }
+function initializeCart(){
+	document.getElementById("menu-item").style.maxHeight = "0px";
+}
 function menutoggle(){
 	var height = document.getElementById("menu-item").style.maxHeight;
 	if(height == "0px"){
@@ -33,7 +36,7 @@ function menutoggle(){
 	}
 }
 function viewCart(){
-	alert('viewCart');
+	window.open("cart.html","_top");
 }
 
 function product(){
